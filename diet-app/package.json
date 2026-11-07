@@ -1,10 +1,10 @@
 {
-  "name": "smart-diet-app",
+  "name": "diet-app",
   "version": "1.0.0",
-  "description": "Smart Diet Management App with Gemini AI",
-  "main": "index.js",
+  "description": "Diet Management App with Gemini AI",
+  "main": "api/analyze-food.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/analyze-food.js"
   },
   "dependencies": {
     "@google/genai": "^0.1.1"
